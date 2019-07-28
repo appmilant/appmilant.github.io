@@ -1,0 +1,19 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+   }
+
+.pagination__pages-list {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.pagination__controlls {
+    display: flex;
+    justify-content: center;
+}
+.pagination__display {
+    display: flex;
+    justify-content: center;
+}

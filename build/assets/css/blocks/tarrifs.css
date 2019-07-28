@@ -1,0 +1,35 @@
+
+.tarrifs__icon-wrap {
+    background: #4b74b6;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 68px;
+    height: 68px;
+    display: inline-block;
+    position: relative;
+}
+
+.tarrifs__icon {
+    width: 30px;
+    height: 31px;
+    object-fit: cover;
+    position:absolute; 
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.tarrifs__desc-item {
+    list-style: circle;
+    text-align: left;
+    }
+.tarrifs__cost {
+    font-size: 25px;
+}
+.tarrifs__list{
+    display:flex;
+    justify-content: space-between;
+}
+.tarrifs__item {
+text-align: center;
+width: 250px;
+}
